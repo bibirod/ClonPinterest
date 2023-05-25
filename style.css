@@ -16,7 +16,7 @@ body {
     color: white;
   }
   
-  .buscador {
+  .finder {
     width: 200px;
     padding: 5px;
     border: none;
@@ -80,7 +80,24 @@ body {
     }
   }
   #notifications{
-    flex-direction: row;
-    width:10%;
-    height: 10%;
+    display:flex;
+    width: 50%;
+    height: 50%;
+    justify-content: space-around;
+  }
+  #message{
+    display:flex;
+    width: 50%;
+    height: 50%;
+    justify-content: space-around;
+  }
+  #profile-img{
+    display:flex;
+    width: 50%;
+    height: 50%;
+  }
+  #pinterest-icon{
+    display:flex;
+    width:70%;
+    height:70%;
   }
